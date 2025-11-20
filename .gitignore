@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files
+*.txt
+*.jsonl
+*.pdf
+*.docx
+
+# Large files
+*.zip
+*.tar.gz
+
+# API keys and secrets
+.env
+secrets.json
+config.json
+
+# Logs
+*.log
+logs/
+
+# Model files (large files)
+*.bin
+*.safetensors
+*.h5
+*.pth
+
+# Vector indexes (can be regenerated)
+*_index/
+*.faiss
+*.pkl
