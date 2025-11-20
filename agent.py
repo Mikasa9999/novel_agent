@@ -9,7 +9,7 @@ from langchain.schema import HumanMessage
 # ====================================
 # 1️⃣ DeepSeek API 配置
 # ====================================
-os.environ["OPENAI_API_KEY"] = "sk-93aabc1d5b0545d083576c89870861bf"
+os.environ["OPENAI_API_KEY"] = "your_deepseek_api_key_here"#也可以切换其他模型
 os.environ["OPENAI_BASE_URL"] = "https://api.deepseek.com"
 
 # ====================================
